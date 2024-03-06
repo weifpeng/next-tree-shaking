@@ -6,7 +6,7 @@
 
     其中 page a 和 b 大小都是 414k
 
-2. 在 apps/docs/next.config.js 中接触注释
+2. 在 apps/docs/next.config.js 中解除注释
    ```
      // experimental: {
      //   optimizePackageImports: [
