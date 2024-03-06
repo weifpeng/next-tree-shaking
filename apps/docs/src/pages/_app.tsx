@@ -1,12 +1,16 @@
+import { useRouter } from "next/router";
 
-import { Button, Code, Card } from "@repo/ui";
+const Layout = ({ children }: any) => {
+  const router = useRouter();
+
+  return <div>{children}</div>;
+};
 
 const MyApp = ({ Component, pageProps: { ...pageProps } }: any) => {
   return (
-    <div>
+    <Layout>
       <Component {...pageProps} />
-      <Button appName="docs">Click me!</Button>;
-    </div>
+    </Layout>
   );
 };
 
