@@ -4,7 +4,7 @@ const nextConfig = {
   transpilePackages: ["@repo/ui"],
   experimental: {
     // optimizePackageImports: [
-    //   // '@repo/ui',
+    //   '@repo/ui',
     // ],
   },
 };
